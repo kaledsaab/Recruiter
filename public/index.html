@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recruitment Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="topbar" hidden>
+    <div class="brand">Recruitment Portal</div>
+    <nav id="nav"></nav>
+    <div class="right">
+      <button id="bell" class="bell" title="Notifications">🔔<span id="badge" hidden></span></button>
+      <span id="who"></span>
+      <button id="logout" class="link">Log out</button>
+    </div>
+  </header>
+  <div id="notif-panel" class="panel" hidden></div>
+  <main id="view"></main>
+  <div id="toast" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
